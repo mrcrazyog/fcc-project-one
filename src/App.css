@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  border-radius: 30px;
+  position: relative;
+  width: 90vw; /* Use viewport units to make the quote box responsive */
+  max-width: 450px; /* Set the maximum width of the quote box */
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#text {
+  text-align: center;
+  width: 100%; /* Make the text width 100% */
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+#author {
+  width: 100%; /* Make the author width 100% */
+  height: auto;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+.buttons {
+  width: 100%; /* Make the buttons width 100% */
+  margin-top: 20px; /* Add some top margin */
+  display: flex;
+  flex-wrap: wrap; /* Use flex-wrap to make the buttons wrap to the next line on smaller screens */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+.buttons a {
+  color: inherit;
+  text-decoration: none;
+  margin: 10px; /* Add margin to the buttons */
+  flex: 1; /* Use flex to make the buttons resize based on the available space */
+}
+
+.buttons a:hover {
+  color: #fff;
+}
+
+.button {
+  width: 100%;
+}
